@@ -1,0 +1,105 @@
+.logintop{
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: -15%;
+
+}
+.instagram{
+   margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+.insta{ 
+height: 80%;
+position: relative;
+}
+.second{
+    position: absolute;
+    margin-top: 79px;
+    margin-right: 145px;
+
+}
+.cover{
+
+    position: absolute;
+    margin-top: 38px;
+    margin-left: 125px;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    margin-top: 9%;
+    height: 65%;
+    border: 1px solid gray;
+}
+.or{
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 0.8em;
+}
+
+.loginpage >input{
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    width: 70%;
+    margin-top: 8px;
+    margin-left: 14%;
+    padding-left: 5px;
+    background-color: rgba(128, 128, 128, 0.048);
+    height: 35px;
+}
+
+.loginpage >Button{
+    width: 72%;
+    height:30px;
+    margin-top: 8px;
+    margin-left: 14%;   
+    border-radius: 7px;
+    border: none;
+    background-color: rgba(39, 139, 233, 0.836);
+    font-weight: bold;
+    color: white;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: #091d49e3;
+
+}
+.facebook:hover{
+    cursor: pointer;
+}
+.loginpage>h2:hover{
+    cursor: pointer;
+}
+.fpass{
+    display: flex;
+    justify-content: center;
+    color: #091d49e3;
+     font-size: 0.8em ;
+     margin-top: 5%;
+}
+.wrap-login{
+    width: 25%;
+   display: flex;
+   flex-direction: column;
+  
+}
+.wrap-login>.signup{
+    border: 1px solid gray;
+    margin-top: 5%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap-login>.signup>p{
+    font-weight:bold ;
+    color: rgb(39, 139, 233);
+}
+.wrap-login>.signup>p:hover{
+    cursor: pointer;
+}

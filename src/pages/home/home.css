@@ -1,0 +1,40 @@
+.sidenav > ul > li{
+    padding: 10px;
+}
+
+.sidenav > ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.sidenav{
+
+    height:100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidenav > ul{
+    height: 100%;
+}
+.home{
+    height: 100%;
+    background-image: url(./mount.png);
+    background-repeat: no-repeat;
+    display: flex;
+
+}
+.out{
+    display: flex;
+
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}

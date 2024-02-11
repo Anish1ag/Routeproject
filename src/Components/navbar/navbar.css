@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.nav>.logoimg{
+    margin-left: 3%;
+    display: flex;
+}
+.nav>.navcont{
+    display: flex;
+}
+
+.nav>.logoimg>img{
+    border-radius: 30px;
+}
+
+.nav {
+    justify-content: space-between;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.active-main{
+    color: rgb(133, 205, 50) !important;
+}
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.nav a:hover {
+  cursor: pointer;
+    text-decoration: underline;
+}
+.login{
+    border-radius: 25px;
+}
+
+
